@@ -21,3 +21,10 @@ Simply enter the language you want to use, and that's it!
 ```python
 en-US or ko-KR ...etc
 ```
+
+❗❗ Don't forget to input your OpenAI API key here:
+```python
+# ./summarize_text.py
+
+client = OpenAI(api_key='your_openai_api_key_here')
+```
