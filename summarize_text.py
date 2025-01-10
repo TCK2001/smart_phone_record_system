@@ -11,7 +11,7 @@ def summarize_text(text):
     """Use the GPT API to summarize text in one concise sentence."""
     try:
         completion = client.chat.completions.create(
-            model="gpt-4",
+            model="gpt-4o-mini",
             messages=[
                 {"role": "system", "content": "You are an assistant summarizing text in one concise sentence."},
                 {"role": "user", "content": text}
