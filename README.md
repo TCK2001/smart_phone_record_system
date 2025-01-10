@@ -1,7 +1,6 @@
 # smart_phone_record_system
 
 ### motivation
-Motivation
 Sometimes, when making many phone calls, I forget what I talked about and overlook important points. Additionally, when frequently talking with the same person, I often forget what the conversation was about. To address this issue, I developed a system that integrates `LLM` and [Google Speech-to-Text Supported Languages](https://cloud.google.com/speech-to-text/docs/speech-to-text-supported-languages?hl=ko) models to automatically record call logs and summarize the content using LLM to save it as a title.
 
 The idea came from the thought that it would be great to have such a system embedded in our phones, which led me to develop it.
